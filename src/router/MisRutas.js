@@ -18,8 +18,8 @@ export const MisRutas = () => {
             {/* CONTENIDO --> Donde irán los componentes, entonces irán las rutas (Routes, Route) */}
             <section className='content'>
                 <Routes>
-                    <Route path='/' element={<Navigate to='/inicio' />} /> {/* Redirigimos al inicio por defecto para que se apliquen estilos css */}
-                    <Route path='/inicio' element={<Inicio />} />
+                    <Route path='/' element={<Navigate to='#/inicio' />} /> {/* Redirigimos al inicio por defecto para que se apliquen estilos css */}
+                    <Route path='#/inicio' element={<Inicio />} />
                     <Route path='/portafolio' element={<Portafolio />} />
                     <Route path='/servicios' element={<Servicios />} />
                     <Route path='/curriculum' element={<Curriculum />} />
