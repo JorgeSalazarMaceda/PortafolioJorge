@@ -11,7 +11,7 @@ export const trabajos = [
     {
         'id':'eVentalia',
         'nombre':'eVentalia',
-        'url':'https://github.com/JorgeSalazarMaceda',
+        'url':'https://github.com/VoyCuajado/TFC_RepositorioDAW2',
         'tecnologias':'PHP, CSS, Bootstrap, API PHPMailer, API Conekta y phpmyadmin',
         'categorias':'Red Social',
         'descripcion':'Red Social para creación de eventos, con registro y creación personal del perfil de usuario, reseñas, inserción de imágenes, iconos informativos, responsive, CRUD, MVC, Foro de conversación.'
@@ -27,7 +27,7 @@ export const trabajos = [
     {
         'id':'inmobiliaria',
         'nombre':'Inmobiliaria',
-        'url':'https://github.com/JorgeSalazarMaceda',
+        'url':'https://github.com/JorgeSalazarMaceda/Inmobiliaria',
         'tecnologias':'PHP, HTML5, CSS, phpmyadmin y AJAX',
         'categorias':'Gestor de Datos (CRUD)',
         'descripcion':'App desarrollada en PHP, HTML, CSS y AJAX que gestiona las publicaciones, filtrados de búsqueda y perfiles usuario y de inmuebles.'
@@ -43,7 +43,7 @@ export const trabajos = [
     {
         'id':'cargame',
         'nombre':'CarGame',
-        'url':'https://github.com/JorgeSalazarMaceda',
+        'url':'https://github.com/JorgeSalazarMaceda/CarGame',
         'tecnologias':'PHP, HTML, CSS y JavaScript',
         'categorias':'Game',
         'descripcion':'Implementation of a Minesweeper game in PHP and CSS, using the DOM and JavaScript events to enable car movement. When the car touches a bomb, an explosion occurs. Collision detection has also been handled.'
