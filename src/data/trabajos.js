@@ -12,7 +12,7 @@ export const trabajos = [
         'id':'eVentalia',
         'nombre':'eVentalia',
         'url':'https://github.com/VoyCuajado/TFC_RepositorioDAW2',
-        'tecnologias':'PHP, CSS, Bootstrap, API PHPMailer, API Conekta y phpmyadmin',
+        'tecnologias':'PHP, CSS, Bootstrap, API PHPMailer, API Conekta y phpmyadmin.',
         'categorias':'Red Social',
         'descripcion':'Red Social para creación de eventos, con registro y creación personal del perfil de usuario, reseñas, inserción de imágenes, iconos informativos, responsive, CRUD, MVC, Foro de conversación.'
     },    
@@ -20,7 +20,7 @@ export const trabajos = [
         'id':'videoclub',
         'nombre':'Videoclub',
         'url':'https://videoclubreact.netlify.app/',
-        'tecnologias':'JS, React, HTML5 y CSS',
+        'tecnologias':'JS, React, HTML5 y CSS.',
         'categorias':'Gestor de Datos (CRUD)',
         'descripcion':'App developed with the React framework for managing a video rental store using local storage.'
     },
@@ -28,7 +28,7 @@ export const trabajos = [
         'id':'inmobiliaria',
         'nombre':'Inmobiliaria',
         'url':'https://github.com/JorgeSalazarMaceda/Inmobiliaria',
-        'tecnologias':'PHP, HTML5, CSS, phpmyadmin y AJAX',
+        'tecnologias':'PHP, HTML5, CSS, phpmyadmin y AJAX.',
         'categorias':'Gestor de Datos (CRUD)',
         'descripcion':'App desarrollada en PHP, HTML, CSS y AJAX que gestiona las publicaciones, filtrados de búsqueda y perfiles usuario y de inmuebles.'
     },
@@ -36,7 +36,7 @@ export const trabajos = [
         'id':'jorgelogica',
         'nombre':'JorgeLogica_Responsive',
         'url':'https://jorgelogica.netlify.app/',
-        'tecnologias':'HTML5, Bootstrap y Grid',
+        'tecnologias':'HTML5, Bootstrap y Grid.',
         'categorias':'Responsive',
         'descripcion':'Página realizada con Bootstrap y Grid para hacerla totalmente Responsive.'
     },
@@ -44,7 +44,7 @@ export const trabajos = [
         'id':'cargame',
         'nombre':'CarGame',
         'url':'https://github.com/JorgeSalazarMaceda/CarGame',
-        'tecnologias':'PHP, HTML, CSS y JavaScript',
+        'tecnologias':'PHP, HTML, CSS y JavaScript.',
         'categorias':'Game',
         'descripcion':'Implementation of a Minesweeper game in PHP and CSS, using the DOM and JavaScript events to enable car movement. When the car touches a bomb, an explosion occurs. Collision detection has also been handled.'
     },
@@ -52,8 +52,8 @@ export const trabajos = [
         'id':'gitJorge',
         'nombre':'GitHub de Jorge',
         'url':'https://github.com/JorgeSalazarMaceda',
-        'tecnologias':'HTML, CSS, Bootstrap, PHP, MySql',
+        'tecnologias':'PHP, Java, JavaScript, React.js, HTML5, CSS, Bootstrap, SASS, MySql, GitHub, Patrones de diseño, SOAP, API REST, Sistemas Operativos (Linux, Windows), Máquinas Virtuales, Test unitarios y de integración, cloud.',
         'categorias':'Repositorio',
-        'descripcion':'Lorem Ipsum'
+        'descripcion':'Mi repositorio personal de GitHub, donde tienen a su disposición todos los códigos de los proyectos en los que he trabajado. // My personal GitHub repository, where you can find all the code for the projects I have worked on.'
     }
 ];

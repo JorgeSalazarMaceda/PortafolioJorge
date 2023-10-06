@@ -8,17 +8,18 @@ export const Inicio = () => {
     <div className='home'>
 
       <h1>
-        ¡Hola mundo!, soy Jorge, desarrollador web con experiencia en HTML, CSS, Bootstrap, SASS, Java, JS,
-        React.js, PHP, MySQL y Git. Ofrezco mis servicios de <strong>programación y desarrollo</strong> en Madrid. Seguidor de las
-        las Metodologías Ágiles, con habilidades en el sector legal, así que espero que podamos trabajar juntos.
+          ¡Hola mundo! &#128075; <br/>
+          Soy Jorge, 💻 <strong>Desarrollador Web</strong>  💻 con experiencia en tecnologías como PHP, Java, JavaScript, React.js, Bootstrap, SASS, MySQL y GitHub. 
+          Ofrezco mis servicios de <strong>programación y desarrollo web</strong> en Madrid. Soy seguidor de las Metodologías Ágiles y cuento con habilidades en el sector legal. <br/>
+          ¡Nos vemos en el proyecto! 😄
       </h1>
 
-      <h2 className='tittle'>Te ayudo a crear tu sitio o app web<Link to='/contacto'> Contacta conmigo.</Link></h2>
+
+      <h2 className='tittle'>¿Creamos una App?<br/><br/><Link to='/contacto'>Contacta conmigo.</Link></h2>
     
       {/* Poner carrousel de proyectos */}
       <section className='last-works'>
-        <h2 className='heading'>Algunos de mis proyectos</h2>
-        <p>Estos son algunos de mis proyectos</p>
+        <h3 className='heading'>Algunos de mis proyectos</h3>
 
         <div className='works'>
           <ListadoTrabajosRandom limite='2'/> {/* Pasamos una prop para que se muestren menos proyectos en inicio, el limite será 2 y lo pasamos al componente */}
