@@ -19,11 +19,28 @@ export const Proyecto = () => {
         <div className='page page-work'>
             <h1 className='heading'>Proyecto: {proyecto.nombre}</h1>
             <div className='mask'>
-                  <img src={'/images/' + proyecto.id + '.png'} />
+            <a href={proyecto.url} target='_blank' rel="noreferrer">
+                <img src={'/images/' + proyecto.id + '.png'} alt={`imagen ${proyecto.id}`} /></a>
             </div>
             <p>Tecnologías: {proyecto.tecnologias}</p>
             <p>Descrpción: {proyecto.descripcion}</p>
-            <a href={proyecto.url} target='_blank'>Ir al proyecto</a>
+            <a href={proyecto.url} target='_blank' rel="noreferrer">Échame un vistazo</a>
         </div>
     )
 }
+
+// David
+// return (
+//     <div className='page page-work'>
+//         <h1 className='heading'>Proyecto: {proyecto.nombre}</h1>
+//         <div className='mask'>
+//             <a href={proyecto.url} target='_blank' rel="noreferrer">
+//                 <img src={`/images/${proyecto.id}.gif`} alt={`imagen ${proyecto.id}`} />
+//             </a>
+//         </div>
+//         <p>Tecnologías: {proyecto.tecnologias}</p>
+//         <p>Descrpción: {proyecto.descripcion}</p>
+//         <a href={proyecto.url} target='_blank' rel="noreferrer">Ir al proyecto</a>
+//     </div>
+// )
+// }

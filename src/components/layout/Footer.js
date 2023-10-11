@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 export const Footer = () => {
   return (
     <footer className='footer'>
-       Portafolio de Jorge Salazar WEB &copy - 2023 
+      <div className="footer-content">
+        Portafolio de Jorge Salazar WEB &copy; - 2023
+      </div>
     </footer>
-  )
-}
+  );
+};

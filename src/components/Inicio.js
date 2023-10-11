@@ -4,6 +4,7 @@ import { Contacto } from './Contacto'
 import { ListadoTrabajosRandom } from './ListadoTrabajosRandom'
 
 export const Inicio = () => {
+  
   return (
     <div className='home'>
 
@@ -28,3 +29,5 @@ export const Inicio = () => {
     </div>
   )
 }
+
+
